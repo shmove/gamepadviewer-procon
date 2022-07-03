@@ -15,8 +15,6 @@
     display: none;
 }
 
-/* Positioning: positions from svg file -20 in each axis */
-
 /*
 .custom .trigger{
     width: 88px;
@@ -71,13 +69,13 @@
 }
 .custom .back{
     background-position: 0 0;
-    left: 186.88px;
-    top: 73.065px;
+    left: 194.78px; /* -12 */
+    top: 82.15px; /* -10 */
 }
 .custom .start{
     background-position: -23px 0px;
-    left: 322.35px;
-    top: 73.205px;
+    left: 330.25px; /* -12 */
+    top: 82.29px; /* -10 */
 }
 /*
 .custom .abxy{
@@ -90,6 +88,9 @@
     background-size: contain;
 }
 */
+
+/* Positioning: positions from svg file -20 in each axis */
+
 .custom .button{
     position: absolute;
     background: url(https://shmove.github.io/gamepadviewer-procon/images/abxy.svg);
