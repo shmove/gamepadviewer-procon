@@ -14,6 +14,9 @@
 .custom.disconnected div {
     display: none;
 }
+
+/* Positioning: positions from svg file -20 in each axis */
+
 /*
 .custom .trigger{
     width: 88px;
@@ -68,13 +71,13 @@
 }
 .custom .back{
     background-position: 0 0;
-    left: 206.88px;
-    top: 93.065px;
+    left: 186.88px;
+    top: 73.065px;
 }
 .custom .start{
     background-position: -23px 0px;
-    left: 342.35px;
-    top: 93.205px;
+    left: 322.35px;
+    top: 73.205px;
 }
 /*
 .custom .abxy{
@@ -100,22 +103,22 @@
 }
 .custom .a{
     background-position: -40px 0;
-    left: 419.25px;
-    top: 167.215px;
+    left: 399.25px;
+    top: 147.215px;
 }
 .custom .b{
     background-position: 0 0;
-    left: 462.06px;
-    top: 130.995px;
+    left: 442.06px;
+    top: 110.995px;
 }
 .custom .x{
     background-position: -120px 0;
-    left: 419.25px;
-    top: 93.515px;
+    left: 356.85px;
+    top: 110.115px;
 }
 .custom .y{
     background-position: -80px 0;
-    left: 376.85px;
-    top: 130.115px;
+    left: 399.25px;
+    top: 73.515px;
 }
 /*END Xbox One Controller Styling*/
