@@ -1,3 +1,112 @@
 /*BEGIN Xbox One Controller Styling*/
+.controller.custom{
+    background: url(https://raw.githubusercontent.com/shmove/gamepadviewer-procon/master/images/base.svgz);
+    height: 500px;
+    width: 600px;
+    margin-left: -375px;
+    margin-top: -285px;
+}
+.custom.disconnected {
 
+}
+.custom.disconnected div {
+    display: none;
+}
+/*
+.custom .trigger{
+    width: 88px;
+    height: 121px;
+    background: url(http://mrmcpowned.com/gamepad/xbox-assets/trigger.svgz);
+    opacity: 0;
+}
+.custom .trigger.left{
+    float: left;
+    background-position:0 0;
+}
+.custom .trigger.right{
+    float: right;
+    transform: rotateY(180deg);
+}
+*/
+.custom .bumper{
+    width: 170px;
+    height: 61px;
+    background: url(https://raw.githubusercontent.com/shmove/gamepadviewer-procon/master/images/bumper.svgz);
+    opacity: 0;
+}
+.custom .bumpers{
+    position: absolute;
+    width: 536px;
+    height: 61px;
+    left: 107px;
+    top: 129px;
+    display: none;
+}
+.custom .bumper.pressed{
+    opacity: 1;
+}
+.custom .bumper.left{
+    float: left;
+}
+.custom .bumper.right{
+    float: right;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.custom .back, .custom .start{
+    background: url(https://raw.githubusercontent.com/shmove/gamepadviewer-procon/master/images/plusminus.svgz);
+    width: 33px;
+    height: 33px;
+    opacity: 0;
+}
+.custom .back.pressed, .custom .start.pressed{
+    opacity: 1;
+}
+.custom .back{
+    float: left;
+}
+.custom .start{
+    background-position: 33px 0px;
+    float: right;
+}
+.custom .abxy{
+    position: absolute;
+    width: 157px;
+    height: 164px;
+    top: 231px;
+    left: 388px;
+    /* background: url(http://i.imgur.com/tE4M2o4.png); */
+    /* background-size: contain; */
+}
+.custom .button{
+    position: absolute;
+    background: url(https://raw.githubusercontent.com/shmove/gamepadviewer-procon/master/images/abxy.svgz);
+    width: 48px;
+    height: 48px;
+}
+.custom .button.pressed{
+    background-position-y: -48px;
+    margin-top: 5px;
+    opacity: 1;
+}
+.custom .a{
+    background-position: 0 0;
+    top: 108px;
+    left: 55px;
+}
+.custom .b{
+    background-position: -49px 0;
+    top: 57px;
+    right: 3px;
+}
+.custom .x{
+    background-position: -98px 0;
+    top: 57px;
+    left: 4px;
+}
+.custom .y{
+    background-position: 48px 0;
+    left: 55px;
+    top: 5px;
+}
 /*END Xbox One Controller Styling*/
