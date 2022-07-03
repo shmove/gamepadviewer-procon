@@ -1,6 +1,8 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.custom{
     background: url(https://shmove.github.io/gamepadviewer-procon/images/base.svg);
+    background-size: 550px 420px;
+    background-repeat: no-repeat;
     width: 550px;
     height: 420px;
     margin-left: 0;
@@ -54,26 +56,25 @@
     transform: rotateY(180deg);
 }
 .custom .back, .custom .start{
-    position:absolute;
+    position: absolute;
     background: url(https://shmove.github.io/gamepadviewer-procon/images/plusminus.svg);
     background-size: 46px 44px;
     background-repeat: no-repeat;
     width: 23px;
     height: 22px;
-    opacity: 0;
 }
 .custom .back.pressed, .custom .start.pressed{
     background-position-y: -22px;
 }
 .custom .back{
     background-position: 0 0;
-    top: 150px;
-    left: 60px;
+    left: 206.88px;
+    top: 93.065px;
 }
 .custom .start{
     background-position: -23px 0px;
-    top: 150px;
-    left: 90px;
+    left: 342.35px;
+    top: 93.205px;
 }
 /*
 .custom .abxy{
@@ -99,22 +100,22 @@
 }
 .custom .a{
     background-position: -40px 0;
-    top: 108px;
-    left: 55px;
+    left: 419.25px;
+    top: 167.215px;
 }
 .custom .b{
     background-position: 0 0;
-    top: 57px;
-    right: 3px;
+    left: 462.06px;
+    top: 130.995px;
 }
 .custom .x{
     background-position: -120px 0;
-    top: 57px;
-    left: 4px;
+    left: 419.25px;
+    top: 93.515px;
 }
 .custom .y{
     background-position: -80px 0;
-    left: 55px;
-    top: 5px;
+    left: 376.85px;
+    top: 130.115px;
 }
 /*END Xbox One Controller Styling*/
