@@ -92,7 +92,7 @@
     opacity: 1;
 }
 .custom .a{
-    clip: rect(0, 0, 0, 0);
+    clip: rect(0, 120px, 0, 0);
     /* background-position: 0 0; */
     top: 108px;
     left: 55px;
