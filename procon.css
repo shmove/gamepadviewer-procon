@@ -127,26 +127,26 @@
     height: 28.3px;
 }
 .custom .face.pressed{
-    background-position-y: -30px;
+    background-position-y: -30.3px;
 }
 .custom .face.up{
     background-position-x: 0px;
-    left: 177.3396px;
+    left: 177.3296px;
     top: 169.8px;
 }
 .custom .face.down{
     background-position-x: -30px;
-    left: 177.3396px;
+    left: 177.3296px;
     top: 222.4px;
 }
 .custom .face.left{
     background-position-x: -60px;
-    left: 151.34px;
+    left: 151.33px;
     top: 195.8px;
 }
 .custom .face.right{
     background-position-x: -90px;
-    left: 203.94px;
+    left: 203.93px;
     top: 195.8px;
 }
 
