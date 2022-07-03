@@ -56,6 +56,9 @@
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
+
+/* Minus / Plus */
+
 .custom .back, .custom .start{
     position: absolute;
     background: url(https://shmove.github.io/gamepadviewer-procon/images/plusminus.svg);
@@ -77,18 +80,8 @@
     left: 330.25px; /* -12 */
     top: 82.29px; /* -10 */
 }
-/*
-.custom .abxy{
-    position: absolute;
-    width: 160px;
-    height: 82px;
-    top: 231px;
-    left: 388px;
-    background: url(http://i.imgur.com/tE4M2o4.png);
-    background-size: contain;
-}
-*/
 
+/* A B X Y */
 /* Positioning: positions from svg file -20 in each axis */
 
 .custom .button{
@@ -122,4 +115,38 @@
     left: 399.25px;
     top: 73.515px;
 }
+
+/* D-Pad */
+.custom .face{
+    position: absolute;
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/dpad.svg);
+    background-size: 116.3px 56.6px;
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 28.3px;
+}
+.custom .face.pressed{
+    background-position-y: -28.3px;
+}
+.custom .face.up{
+    background-position: 0 0;
+    left: 38px;
+    top: 0px;
+}
+.custom .face.down{
+    background-position: -30px 0;
+    left: 68px;
+    top: 0;
+}
+.custom .face.left{
+    background-position: 0 -60px;
+    left: 0;
+    top: 38px;
+}
+.custom .face.right{
+    background-position: 0 -90px;
+    left: 0;
+    top: 68px;
+}
+
 /*END Xbox One Controller Styling*/
