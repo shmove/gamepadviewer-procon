@@ -3,8 +3,8 @@
     background: url(https://shmove.github.io/gamepadviewer-procon/images/base.svgz);
     height: 500px;
     width: 600px;
-    margin-left: -375px;
-    margin-top: -285px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 .custom.disconnected {
 
