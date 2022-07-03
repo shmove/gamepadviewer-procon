@@ -1,10 +1,10 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.custom{
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/base.svgz);
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/base.svg);
     height: 500px;
     width: 600px;
-    margin-left: 0px;
-    margin-top: 0px;
+    margin-left: -375px;
+    margin-top: -285px;
 }
 .custom.disconnected {
 
@@ -31,7 +31,7 @@
 .custom .bumper{
     width: 170px;
     height: 61px;
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/bumper.svgz);
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/bumper.svg);
     opacity: 0;
 }
 .custom .bumpers{
@@ -54,7 +54,7 @@
     transform: rotateY(180deg);
 }
 .custom .back, .custom .start{
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/plusminus.svgz);
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/plusminus.svg);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -80,7 +80,7 @@
 }
 .custom .button{
     position: absolute;
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/abxy.svgz);
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/abxy.svg);
     width: 48px;
     height: 48px;
 }
