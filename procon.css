@@ -131,23 +131,23 @@
 }
 .custom .face.up{
     background-position-x: 0px;
-    left: 176.8496px;
-    top: 168.8px;
+    left: 177.3496px;
+    top: 169.8px;
 }
 .custom .face.down{
     background-position-x: -30px;
-    left: 176.8496px;
-    top: 221.4px;
+    left: 177.3496px;
+    top: 222.4px;
 }
 .custom .face.left{
     background-position-x: -60px;
-    left: 150.85px;
-    top: 194.8px;
+    left: 151.35px;
+    top: 195.8px;
 }
 .custom .face.right{
     background-position-x: -90px;
-    left: 203.45px;
-    top: 194.8px;
+    left: 203.95px;
+    top: 195.8px;
 }
 
 /*END Xbox One Controller Styling*/
