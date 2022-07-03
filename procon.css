@@ -116,7 +116,8 @@
     top: 73.515px;
 }
 
-/* D-Pad */
+/* DPad */
+
 .custom .face{
     position: absolute;
     background: url(https://shmove.github.io/gamepadviewer-procon/images/dpad.svg);
@@ -139,12 +140,12 @@
     top: 0;
 }
 .custom .face.left{
-    background-position: 0 -60px;
+    background-position: -60px 0;
     left: 0;
     top: 38px;
 }
 .custom .face.right{
-    background-position: 0 -90px;
+    background-position: -90px 0;
     left: 0;
     top: 68px;
 }
