@@ -40,6 +40,7 @@
     background-repeat: no-repeat;
     width: 131.9px;
     height: 43.55px;
+    display: none;
 }
 .custom .bumpers{
     position: absolute;
@@ -52,12 +53,10 @@
     top: 22.4823px;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
-    display: none;
 }
 .custom .bumper.right{
     left: 350.05px;
     top: 21.2822px;
-    display: none;
 }
 
 /* Minus / Plus */
