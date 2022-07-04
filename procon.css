@@ -15,22 +15,28 @@
     display: none;
 }
 
-/*
-.custom .trigger{
-    width: 88px;
-    height: 121px;
-    background: url(http://mrmcpowned.com/gamepad/xbox-assets/trigger.svgz);
-    opacity: 0;
+/* Triggers */
+
+.custom .trigger-button{
+    position: absolute;
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/trigger-button.svg);
+    background-size: 129.89px 54.08px;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 25px;
 }
-.custom .trigger.left{
-    float: left;
-    background-position:0 0;
+.custom .trigger-button.pressed{
+  background-position-y: -30px;
 }
-.custom .trigger.right{
-    float: right;
-    transform: rotateY(180deg);
+
+.custom .trigger-button.left{
+  background-position: 0 0;
+  left: 191.25px;
 }
-*/
+.custom .trigger-button.right{
+  background-position: 70px 0;
+  left: 290.65px;
+}
 
 /* Bumpers */
 
