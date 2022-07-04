@@ -35,18 +35,16 @@
 /* Bumpers */
 
 .custom .bumper{
+    position: absolute;
     background: url(https://shmove.github.io/gamepadviewer-procon/images/bumper.svg);
     background-size: 131.9px 43.55px;
     background-repeat: no-repeat;
     width: 131.9px;
     height: 43.55px;
-    visibility: hidden;
-}
-.custom .bumpers{
-    position: absolute;
+    opacity: 0;
 }
 .custom .bumper.pressed{
-    visibility: visible;
+    opacity: 1;
 }
 .custom .bumper.left{
     left: 61.15px;
