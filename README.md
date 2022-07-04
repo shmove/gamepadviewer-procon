@@ -1,5 +1,6 @@
 # gamepadviewer-procon
 Custom ProCon skin for GamepadViewer.
+![Image preview of the GamepadViewer skin](/images/preview.png)
 
 ## Link
 http://gamepadviewer.com/?p=1&css=https://shmove.github.io/gamepadviewer-procon/procon.css
