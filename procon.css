@@ -40,24 +40,24 @@
     background-repeat: no-repeat;
     width: 131.9px;
     height: 43.55px;
-    opacity: 0;
 }
 .custom .bumpers{
     position: absolute;
 }
 .custom .bumper.pressed{
-    opacity: 1;
+    display: block;
 }
 .custom .bumper.left{
     left: 61.15px;
     top: 22.4823px;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
+    display: none;
 }
 .custom .bumper.right{
     left: 350.05px;
     top: 21.2822px;
-
+    display: none;
 }
 
 /* Minus / Plus */
