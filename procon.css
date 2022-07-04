@@ -155,11 +155,11 @@
 .custom .stick{
     position: absolute;
     background: url(https://shmove.github.io/gamepadviewer-procon/images/stick.svg);
-    background-size: 137px 67px;
+    background-size: 130px 60px;
     background-repeat: no-repeat;
     background-position: -70px 0;
-    height: 67px;
-    width: 67px;
+    height: 60px;
+    width: 60px;
 }
 .custom .stick.pressed{
     background-position: 0 0;
