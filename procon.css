@@ -155,22 +155,22 @@
 .custom .stick{
     position: absolute;
     background: url(https://shmove.github.io/gamepadviewer-procon/images/stick.svg);
-    background-size: 130px 60px;
+    background-size: 135px 65px;
     background-repeat: no-repeat;
     background-position: -70px 0;
-    height: 60px;
-    width: 60px;
+    height: 65px;
+    width: 65px;
 }
 .custom .stick.pressed{
     background-position: 0 0;
 }
 .custom .stick.left{
-    left: 90.76px;
-    top: 99.51px;
+    left: 94.26px;
+    top: 103.01px;
 }
 .custom .stick.right{
-    left: 311.55px;
-    top: 174.7px;
+    left: 315.05px;
+    top: 178.2px;
 }
 
 /*END Xbox One Controller Styling*/
