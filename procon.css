@@ -30,12 +30,14 @@
 }
 
 .custom .trigger-button.left{
-  background-position: 0 0;
+  background-position-x: 0px;
   left: 191.25px;
+  top: 0.5px;
 }
 .custom .trigger-button.right{
-  background-position: 70px 0;
+  background-position-x: -70px;
   left: 290.65px;
+  top: 0.5px;
 }
 
 /* Bumpers */
