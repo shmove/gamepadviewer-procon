@@ -47,14 +47,14 @@
     opacity: 1;
 }
 .custom .bumper.left{
-    left: 61.15px;
-    top: 22.4823px;
+    left: 63.262px;
+    top: 22.49px;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
 .custom .bumper.right{
-    left: 350.05px;
-    top: 21.2822px;
+    left: 353.2px;
+    top: 22.2822px;
 }
 
 /* Minus / Plus */
