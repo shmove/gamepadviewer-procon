@@ -31,30 +31,33 @@
     transform: rotateY(180deg);
 }
 */
+
+/* Bumpers */
+
 .custom .bumper{
-    width: 170px;
-    height: 61px;
     background: url(https://shmove.github.io/gamepadviewer-procon/images/bumper.svg);
+    background-size: 131.9px 43.55px;
+    background-repeat: no-repeat;
+    width: 131.9px;
+    height: 43.55px;
     opacity: 0;
 }
 .custom .bumpers{
     position: absolute;
-    width: 536px;
-    height: 61px;
-    left: 107px;
-    top: 129px;
-    display: none;
 }
 .custom .bumper.pressed{
     opacity: 1;
 }
 .custom .bumper.left{
-    float: left;
-}
-.custom .bumper.right{
-    float: right;
+    left: 61.15px;
+    top: 22.4823px;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
+}
+.custom .bumper.right{
+    left: 350.05px;
+    top: 21.2822px;
+
 }
 
 /* Minus / Plus */
