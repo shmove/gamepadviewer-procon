@@ -159,19 +159,18 @@
     background-repeat: no-repeat;
     background-position: -70px 0;
     height: 67px;
-    width: 70px;
+    width: 67px;
 }
 .custom .stick.pressed{
     background-position: 0 0;
 }
 .custom .stick.left{
-    top: 24px;
-    left: 27px;
+    left: 124.26px;
+    top: 133.01px;
 }
 .custom .stick.right{
-    top: 113px;
-    left: 288px;
-    display: none;
+    left: 345.05px;
+    top: 208.2px;
 }
 
 /*END Xbox One Controller Styling*/
