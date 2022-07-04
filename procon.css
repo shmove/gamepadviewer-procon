@@ -55,8 +55,8 @@
     opacity: 1;
 }
 .custom .bumper.left{
-    right: 353.2px;
-    top: 22.2822px;
+    right: 356.2px;
+    top: 23.2822px;
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
 }
