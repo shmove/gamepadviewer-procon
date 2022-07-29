@@ -32,12 +32,12 @@
 }
 
 .custom .trigger-button.left{
-  left: 191.25px;
-  top: 0.5px;
+  left: 83.3px;
+  top: 0px;
 }
 .custom .trigger-button.right{
-  left: 290.65px;
-  top: 0.5px;
+  right: 83.3px;
+  top: 0px;
 }
 
 /* Bumpers */
