@@ -22,13 +22,13 @@
 .custom .trigger-button{
     position: absolute;
     background: url(https://shmove.github.io/gamepadviewer-procon/images/simple/trigger-button.svg);
-    background-size: 80px 65px;
+    background-size: 80px 45px;
     background-repeat: no-repeat;
     width: 80px;
-    height: 32.5px;
+    height: 22.5px;
 }
 .custom .trigger-button.pressed{
-  background-position-y: -35px;
+  background-position-y: -25px;
 }
 
 .custom .trigger-button.left{
@@ -45,13 +45,13 @@
 .custom .bumper{
     position: absolute;
     background: url(https://shmove.github.io/gamepadviewer-procon/images/simple/bumper.svg);
-    background-size: 120px 70px;
+    background-size: 120px 45px;
     background-repeat: no-repeat;
     width: 120px;
-    height: 35px;
+    height: 22.5px;
 }
 .custom .bumper.pressed{
-    background-position-y: -40px;
+    background-position-y: -25px;
 }
 .custom .bumper.left{
     right: 356.2px;
