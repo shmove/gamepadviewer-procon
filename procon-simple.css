@@ -132,13 +132,13 @@
 }
 .custom .face.up{
     background-position-x: 0px;
-    left: 176.9px;
-    top: 169.5px;
+    left: 176.4px;
+    top: 169.4px;
 }
 .custom .face.down{
     background-position-x: -35px;
-    left: 176.9px;
-    top: 222.15px;
+    left: 176.6px;
+    top: 219.1px;
 }
 .custom .face.left{
     background-position-x: -70px;
@@ -147,7 +147,7 @@
 }
 .custom .face.right{
     background-position-x: -105px;
-    left: 203.4px;
+    left: 200.2px;
     top: 195.8px;
 }
 
