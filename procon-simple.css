@@ -122,13 +122,13 @@
 .custom .face{
     position: absolute;
     background: url(https://shmove.github.io/gamepadviewer-procon/images/simple/dpad.svg);
-    background-size: 116.3px 56.6px;
+    background-size: 134px 64.35px;
     background-repeat: no-repeat;
-    width: 29px;
-    height: 29px;
+    width: 30px;
+    height: 30px;
 }
 .custom .face.pressed{
-    background-position-y: -30px;
+    background-position-y: -35px;
 }
 .custom .face.up{
     background-position-x: 0px;
@@ -136,17 +136,17 @@
     top: 169.5px;
 }
 .custom .face.down{
-    background-position-x: -30px;
+    background-position-x: -35px;
     left: 176.9px;
     top: 222.15px;
 }
 .custom .face.left{
-    background-position-x: -60px;
+    background-position-x: -70px;
     left: 150.9px;
     top: 195.8px;
 }
 .custom .face.right{
-    background-position-x: -90px;
+    background-position-x: -105px;
     left: 203.4px;
     top: 195.8px;
 }
