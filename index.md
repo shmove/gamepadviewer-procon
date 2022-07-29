@@ -1,4 +1,4 @@
-![Image preview of the GamepadViewer skin](/images/preview.png)
+![Image preview of the GamepadViewer skin](/images/default/preview.png)
 
 # gamepadviewer-procon
 Custom ProCon skin for GamepadViewer.
