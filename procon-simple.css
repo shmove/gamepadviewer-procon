@@ -1,8 +1,10 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.custom{
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/base.svg);
+    /*
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/simple/base.svg);
     background-size: 550px 420px;
     background-repeat: no-repeat;
+    */
     width: 550px;
     height: 420px;
     margin-left: 0;
@@ -19,23 +21,21 @@
 
 .custom .trigger-button{
     position: absolute;
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/trigger-button.svg);
-    background-size: 129.89px 54.08px;
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/simple/trigger-button.svg);
+    background-size: 80px 65px;
     background-repeat: no-repeat;
-    width: 65px;
-    height: 25px;
+    width: 80px;
+    height: 32.5px;
 }
 .custom .trigger-button.pressed{
-  background-position-y: -30px;
+  background-position-y: -35px;
 }
 
 .custom .trigger-button.left{
-  background-position-x: 0px;
   left: 191.25px;
   top: 0.5px;
 }
 .custom .trigger-button.right{
-  background-position-x: -70px;
   left: 290.65px;
   top: 0.5px;
 }
@@ -44,21 +44,18 @@
 
 .custom .bumper{
     position: absolute;
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/bumper.svg);
-    background-size: 131.9px 43.55px;
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/simple/bumper.svg);
+    background-size: 120px 70px;
     background-repeat: no-repeat;
-    width: 131.9px;
-    height: 43.55px;
-    opacity: 0;
+    width: 120px;
+    height: 35px;
 }
 .custom .bumper.pressed{
-    opacity: 1;
+    background-position-y: -40px;
 }
 .custom .bumper.left{
     right: 356.2px;
     top: 23.2822px;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
 }
 .custom .bumper.right{
     left: 353.2px;
@@ -69,7 +66,7 @@
 
 .custom .back, .custom .start{
     position: absolute;
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/plusminus.svg);
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/simple/plusminus.svg);
     background-size: 46px 44px;
     background-repeat: no-repeat;
     width: 23px;
@@ -94,8 +91,8 @@
 
 .custom .button{
     position: absolute;
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/abxy.svg);
-    background-size: 160px 82px;
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/simple/abxy.svg);
+    background-size: 40px 82px;
     background-repeat: no-repeat;
     width: 40px;
     height: 41px;
@@ -104,22 +101,18 @@
     background-position-y: -42px;
 }
 .custom .a{
-    background-position: -40px 0;
     left: 399.25px;
     top: 147.215px;
 }
 .custom .b{
-    background-position: 0 0;
     left: 442.06px;
     top: 110.995px;
 }
 .custom .x{
-    background-position: -120px 0;
     left: 356.85px;
     top: 110.115px;
 }
 .custom .y{
-    background-position: -80px 0;
     left: 399.25px;
     top: 73.515px;
 }
@@ -128,7 +121,7 @@
 
 .custom .face{
     position: absolute;
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/dpad.svg);
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/simple/dpad.svg);
     background-size: 116.3px 56.6px;
     background-repeat: no-repeat;
     width: 29px;
@@ -162,7 +155,7 @@
 
 .custom .stick{
     position: absolute;
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/stick.svg);
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/simple/stick.svg);
     background-size: 135px 65px;
     background-repeat: no-repeat;
     background-position: -70px 0;
