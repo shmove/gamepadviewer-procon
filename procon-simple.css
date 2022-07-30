@@ -1,10 +1,10 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.custom{
     background: url(https://shmove.github.io/gamepadviewer-procon/images/simple/base.svg);
-    background-size: 550px 420px;
+    background-size: 360px 420px;
     background-repeat: no-repeat;
-    width: 550px;
-    height: 420px;
+    width: 360px;
+    height: 270px;
     margin-left: 0;
     margin-top: 0;
 }
@@ -30,11 +30,11 @@
 }
 
 .custom .trigger-button.left{
-  left: 83.3px;
+  left: 13.3px;
   top: 0px;
 }
 .custom .trigger-button.right{
-  right: 83.3px;
+  right: 13.3px;
   top: 0px;
 }
 
@@ -52,12 +52,12 @@
     background-position-y: -25px;
 }
 .custom .bumper.left{
-    right: 356.2px;
+    left: 0px;
     top: 23.2822px;
 }
 .custom .bumper.right{
-    left: 353.2px;
-    top: 22.2822px;
+    right: 0px;
+    top: 23.2822px;
 }
 
 /* Minus / Plus */
@@ -75,13 +75,13 @@
 }
 .custom .back{
     background-position: 0 0;
-    left: 195.78px; /* -11 */
-    top: 82.15px; /* -10 */
+    left: 140px;
+    top: 110px;
 }
 .custom .start{
     background-position: -23px 0px;
-    left: 330.25px; /* -12 */
-    top: 82.29px; /* -10 */
+    right: 140px;
+    top: 110px;
 }
 
 /* A B X Y */
@@ -99,20 +99,20 @@
     background-position-y: -42px;
 }
 .custom .a{
-    left: 399.25px;
-    top: 147.215px;
+    left: 277px;
+    top: 125.5px;
 }
 .custom .b{
-    left: 442.06px;
-    top: 110.995px;
+    left: 309.5px;
+    top: 93px;
 }
 .custom .x{
-    left: 356.85px;
-    top: 110.115px;
+    left: 244.5px;
+    top: 93px;
 }
 .custom .y{
-    left: 399.25px;
-    top: 73.515px;
+    left: 277px;
+    top: 60.5px;
 }
 
 /* DPad */
@@ -130,23 +130,23 @@
 }
 .custom .face.up{
     background-position-x: 0px;
-    left: 176.4px;
-    top: 169.4px;
+    left: 103.4px;
+    top: 149.4px;
 }
 .custom .face.down{
     background-position-x: -35px;
-    left: 176.6px;
-    top: 219.1px;
+    left: 103.6px;
+    top: 199.1px;
 }
 .custom .face.left{
     background-position-x: -70px;
-    left: 150.9px;
-    top: 195.8px;
+    left: 77.9px;
+    top: 175.8px;
 }
 .custom .face.right{
     background-position-x: -105px;
-    left: 200.2px;
-    top: 195.8px;
+    left: 127.2px;
+    top: 175.8px;
 }
 
 /* Sticks */
@@ -164,12 +164,12 @@
     background-position: 0 0;
 }
 .custom .stick.left{
-    left: 92.26px;
-    top: 101.01px;
+    left: 27px;
+    top: 72px;
 }
 .custom .stick.right{
-    left: 313.05px;
-    top: 176.2px;
+    left: 200px;
+    top: 157px;
 }
 
 /*END Xbox One Controller Styling*/
