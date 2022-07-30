@@ -1,10 +1,8 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.custom{
-    /*
     background: url(https://shmove.github.io/gamepadviewer-procon/images/simple/base.svg);
     background-size: 550px 420px;
     background-repeat: no-repeat;
-    */
     width: 550px;
     height: 420px;
     margin-left: 0;
