@@ -1,0 +1,188 @@
+/*BEGIN Xbox One Controller Styling*/
+.controller.custom{
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/base.svg);
+    background-size: 550px 420px;
+    background-repeat: no-repeat;
+    width: 550px;
+    height: 420px;
+    margin-left: 0;
+    margin-top: 0;
+}
+.custom.disconnected {
+
+}
+.custom.disconnected div {
+    display: none;
+}
+
+/* Triggers */
+
+.custom .trigger-button{
+    position: absolute;
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/trigger-button.svg);
+    background-size: 129.89px 54.08px;
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 25px;
+}
+.custom .trigger-button.pressed{
+  background-position-y: -30px;
+}
+
+.custom .trigger-button.left{
+  background-position-x: 0px;
+  left: 191.25px;
+  top: 0.5px;
+}
+.custom .trigger-button.right{
+  background-position-x: -70px;
+  left: 290.65px;
+  top: 0.5px;
+}
+
+/* Bumpers */
+
+.custom .bumper{
+    position: absolute;
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/bumper.svg);
+    background-size: 131.9px 43.55px;
+    background-repeat: no-repeat;
+    width: 131.9px;
+    height: 43.55px;
+    opacity: 0;
+}
+.custom .bumper.pressed{
+    opacity: 1;
+}
+.custom .bumper.left{
+    right: 356.2px;
+    top: 23.2822px;
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+.custom .bumper.right{
+    left: 353.2px;
+    top: 22.2822px;
+}
+
+/* Minus / Plus */
+
+.custom .back, .custom .start{
+    position: absolute;
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/plusminus.svg);
+    background-size: 46px 44px;
+    background-repeat: no-repeat;
+    width: 23px;
+    height: 22px;
+}
+.custom .back.pressed, .custom .start.pressed{
+    background-position-y: -22px;
+}
+.custom .back{
+    background-position: 0 0;
+    left: 195.78px; /* -11 */
+    top: 82.15px; /* -10 */
+}
+.custom .start{
+    background-position: -23px 0px;
+    left: 330.25px; /* -12 */
+    top: 82.29px; /* -10 */
+}
+
+/* A B X Y */
+/* Positioning: positions from svg file -20 in each axis */
+
+.custom .button{
+    position: absolute;
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/abxy.svg);
+    background-size: 160px 82px;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 41px;
+}
+.custom .button.pressed{
+    background-position-y: -42px;
+}
+.custom .a{
+    background-position: -40px 0;
+    left: 399.25px;
+    top: 147.215px;
+}
+.custom .b{
+    background-position: 0 0;
+    left: 442.06px;
+    top: 110.995px;
+}
+.custom .x{
+    background-position: -120px 0;
+    left: 356.85px;
+    top: 110.115px;
+}
+.custom .y{
+    background-position: -80px 0;
+    left: 399.25px;
+    top: 73.515px;
+}
+
+/* DPad */
+
+.custom .face{
+    position: absolute;
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/dpad.svg);
+    background-size: 116.3px 56.6px;
+    background-repeat: no-repeat;
+    width: 29px;
+    height: 29px;
+}
+.custom .face.pressed{
+    background-position-y: -30px;
+}
+.custom .face.up{
+    background-position-x: 0px;
+    left: 176.9px;
+    top: 169.5px;
+}
+.custom .face.down{
+    background-position-x: -30px;
+    left: 176.9px;
+    top: 222.15px;
+}
+.custom .face.left{
+    background-position-x: -60px;
+    left: 150.9px;
+    top: 195.8px;
+}
+.custom .face.right{
+    background-position-x: -90px;
+    left: 203.4px;
+    top: 195.8px;
+}
+
+/* Sticks */
+
+.custom .stick{
+    position: absolute;
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/stick.svg);
+    background-size: 135px 65px;
+    background-repeat: no-repeat;
+    background-position: -70px 0;
+    height: 65px;
+    width: 65px;
+}
+.custom .stick[style*="margin-left: 0px; margin-top: 0px;"] {
+    display: none;
+}
+.custom .stick.pressed{
+    display: inherit !important; 
+    background-position: 0 0;
+}
+.custom .stick.left{
+    left: 92.26px;
+    top: 101.01px;
+}
+.custom .stick.right{
+    left: 313.05px;
+    top: 176.2px;
+}
+
+/*END Xbox One Controller Styling*/
