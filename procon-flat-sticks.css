@@ -1,6 +1,6 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.custom{
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/base.svg);
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/flat-sticks/base.svg);
     background-size: 550px 420px;
     background-repeat: no-repeat;
     width: 550px;
@@ -19,7 +19,7 @@
 
 .custom .trigger-button{
     position: absolute;
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/trigger-button.svg);
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/flat-sticks/trigger-button.svg);
     background-size: 129.89px 54.08px;
     background-repeat: no-repeat;
     width: 65px;
@@ -44,7 +44,7 @@
 
 .custom .bumper{
     position: absolute;
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/bumper.svg);
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/flat-sticks/bumper.svg);
     background-size: 131.9px 43.55px;
     background-repeat: no-repeat;
     width: 131.9px;
@@ -69,7 +69,7 @@
 
 .custom .back, .custom .start{
     position: absolute;
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/plusminus.svg);
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/flat-sticks/plusminus.svg);
     background-size: 46px 44px;
     background-repeat: no-repeat;
     width: 23px;
@@ -94,7 +94,7 @@
 
 .custom .button{
     position: absolute;
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/abxy.svg);
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/flat-sticks/abxy.svg);
     background-size: 160px 82px;
     background-repeat: no-repeat;
     width: 40px;
@@ -128,7 +128,7 @@
 
 .custom .face{
     position: absolute;
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/dpad.svg);
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/flat-sticks/dpad.svg);
     background-size: 116.3px 56.6px;
     background-repeat: no-repeat;
     width: 29px;
@@ -162,7 +162,7 @@
 
 .custom .stick{
     position: absolute;
-    background: url(https://shmove.github.io/gamepadviewer-procon/images/default/stick.svg);
+    background: url(https://shmove.github.io/gamepadviewer-procon/images/flat-sticks/stick.svg);
     background-size: 135px 65px;
     background-repeat: no-repeat;
     background-position: -70px 0;
@@ -173,7 +173,7 @@
     display: none;
 }
 .custom .stick.pressed{
-    display: inherit !important; 
+    display: inherit !important;
     background-position: 0 0;
 }
 .custom .stick.left{
